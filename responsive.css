@@ -1,0 +1,339 @@
+@media (max-width:768px) {
+    nav {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .menu {
+        max-width: 0;
+        position: fixed;
+        right: -65px;
+        transition: 0.5s;
+    }
+
+    .menu.active {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 200px;
+        height: 200vh;
+        position: fixed;
+        z-index: 1000;
+        color: #fff;
+        right: 0;
+        background-color: #d31228;
+        transition: 0.5s;
+        box-shadow: 0 0 350px rgba(255, 70, 70, 0.582);
+    }
+
+    .menu li {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .menu .fa-xmark {
+        position: fixed;
+        right: 140px;
+        font-size: 30px;
+    }
+
+    .menu li a {
+        color: #fff !important;
+    }
+
+    .main_content p {
+        font-size: 13px;
+        width: 333px;
+    }
+
+    .arrow {
+        width: 40px !important;
+    }
+
+    .icons {
+        display: block !important;
+        font-size: 30px;
+        z-index: 1000;
+    }
+
+    .search {
+        margin-left: 130px;
+    }
+
+    .menu .nav_links {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-top: 270px;
+        width: 100%;
+        color: #fff;
+    }
+
+    .nav_links a {
+        color: #fff;
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        line-height: 30px;
+    }
+
+    .icons i {
+        font-size: 40px;
+    }
+
+    .main_home {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 70px;
+    }
+
+    .main_home .banner {
+        margin-left: 20px;
+    }
+
+    .main_home .banner img {
+        width: 350px;
+    }
+
+    .cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 85%;
+        height: 90%;
+        margin-left: 25px;
+    }
+
+    .main_content {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .aboutus img {
+        display: none;
+    }
+
+    .main_content h1 {
+        font-size: 27px;
+    }
+
+    .main_content p {
+        font-size: 13px;
+        width: 320px;
+    }
+
+    .main_content .buttons button {
+        font-size: 13px;
+        width: 140px;
+    }
+
+    .aboutus p {
+        font-size: 12px;
+        width: 90%;
+    }
+
+    .about-content button {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .services {
+        height: auto;
+    }
+
+    .services button {
+        width: 300px;
+        font-size: 15px;
+        height: 40px;
+        margin-bottom: 30px;
+    }
+
+    .services .heading h1 {
+        font-size: 20px;
+    }
+
+    .services .heading p {
+        font-size: 13px;
+    }
+
+    .heading {
+        text-align: center;
+    }
+
+    .services .heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .services .heading h1 {
+        font-size: 30px;
+    }
+
+    .services .heading p {
+        font-size: 13px;
+        width: 300px;
+    }
+
+    .card img {
+        width: 100px;
+    }
+
+    .card h1 {
+        font-size: 24px;
+    }
+
+    form .input input {
+        width: 332px;
+    }
+
+    .contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    .contact form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .contact_heading {
+        margin-left: 0;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact button {
+        margin-left: 0;
+    }
+
+    form .input label {
+        font-size: 17px;
+    }
+
+    .l-card {
+        margin-bottom: 40px;
+    }
+
+    textarea {
+        width: 300px;
+    }
+
+    .contact button {
+        font-size: 15px;
+    }
+
+    footer {
+        height: auto;
+        margin: 0;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+        margin-top: 40px;
+    }
+
+    .booth {
+        display: none;
+    }
+
+    footer .top {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 70px;
+        padding: 10px;
+        margin-bottom: 700px;
+    }
+
+    .footer-bottom {
+        border-top: 1px solid #ccc;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+    }
+
+    .footer-bottom p {
+        font-size: 13px;
+    }
+
+    .about {
+        transform: rotate(0deg);
+    }
+
+    .contact img {
+        display: none;
+    }
+
+    .about-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        transform: rotate(0deg);
+        margin: 0;
+    }
+}
+
+
+@media (max-width : 1221px) {
+    html {
+        font-size: 55%;
+    }
+
+    .main_home {
+        padding: 3%;
+    }
+
+    .banner img {
+        width: 340px;
+    }
+
+    .arrow {
+        width: 50px !important;
+    }
+
+    .about-content p {
+        font-size: 12px;
+    }
+
+    .aboutus img {
+        display: none;
+    }
+
+    .contact{
+        height: auto;
+    }
+
+    .people{
+        display: none;
+    }
+
+    footer{
+        margin-top: 30px;
+    }
+}
